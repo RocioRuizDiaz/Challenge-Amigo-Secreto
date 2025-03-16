@@ -1,4 +1,6 @@
 Juego Amigo Secreto 🎮
+
+
 Amigo Secreto es una aplicación interactiva que permite crear, editar y organizar tu lista de participantes, asegurando un sorteo justo y divertido para todos. 🎁
 
 🧠 Cómo Usar
