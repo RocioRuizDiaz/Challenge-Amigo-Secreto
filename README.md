@@ -4,20 +4,23 @@
 Amigo Secreto es una aplicación interactiva que permite crear, editar y organizar tu lista de participantes, asegurando un sorteo justo y divertido para todos. 🎁
 
 🧠 Cómo Usar
+
 Para comenzar, solo agrega los nombres de los amigos, edita o elimina entradas cuando sea necesario, y realiza el sorteo para descubrir quién será el amigo secreto de cada persona.
 
 🛠 Tecnologías
+
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
--HTML5
+- HTML5
 
 
--CSS3
+- CSS3
 
 
--JavaScript
+- JavaScript
 
 ✨ Sobre el Proyecto
+
 Amigo Secreto permite a los usuarios:
 
 Agregar, editar y eliminar amigos de la lista.
