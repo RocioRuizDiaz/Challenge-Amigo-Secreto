@@ -10,7 +10,11 @@ Para comenzar, solo agrega los nombres de los amigos, edita o elimina entradas c
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 -HTML5
+
+
 -CSS3
+
+
 -JavaScript
 
 ✨ Sobre el Proyecto
