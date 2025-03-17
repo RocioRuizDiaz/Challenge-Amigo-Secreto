@@ -43,3 +43,9 @@ Este proyecto fue desarrollado como parte del programa ONE (Oracle Next Educatio
 ¡Esperamos que disfrutes organizando tu juego de amigo secreto con nuestra aplicación! 🎯
 
 
+
+
+https://github.com/user-attachments/assets/99e27525-6221-4635-9d26-bf3ead2b4fa3
+
+
+
