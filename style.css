@@ -1,11 +1,12 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-primary: #adb8e9; /* Gris azulado */
+    --color-secondary: #f9dbac; /* Crema amarillento más intenso */
+    --color-tertiary: #aab9f3e8; /* Azul pastel más profundo */
+    --color-button: #F4A261; /* Naranja suave y cálido */
+    --color-button-hover: #E76F51; /* Naranja rojizo más vibrante */
+    --color-text: #4A4A4A; /* Gris oscuro para mejor lectura */
     --color-white: #FFFFFF;
+    --color-disabled: #BFBFBF; /* Gris medio */
 }
 
 /* Estilos generales */
@@ -21,8 +22,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Inter", sans-serif; /* Cambiado aquí */
 }
 
+/* Main content container */
 .main-content {
     display: flex;
     flex-direction: column;
@@ -39,7 +42,7 @@ body {
     padding: 40px 0 0;
 }
 
-/* Sección de entrada */
+/* Input section */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
@@ -52,17 +55,17 @@ body {
     width: 100%;
 }
 
-/* Títulos */
+/* Titles */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: "Playfair Display", serif; /* Nueva fuente elegante */
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: "Playfair Display", serif; /* Nueva fuente elegante */
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -70,7 +73,7 @@ body {
     text-align: center;
 }
 
-/* Contenedores de entrada y botón */
+/* Input and button containers */
 .input-wrapper {
     display: flex;
     justify-content: center;
@@ -85,14 +88,16 @@ body {
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
+    font-family: "Playfair Display", serif; /* Nueva fuente elegante */
 }
 
+/* Button container */
 .button-container {
     width: 300px;
     justify-content: center;
 }
 
-/* Estilos de entrada de texto */
+/* Input title styles */
 .input-title {
     flex: 1;
     padding: 10px 15px;
@@ -100,11 +105,11 @@ body {
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
+    font-family: "Playfair Display", serif; /* Nueva fuente elegante */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilos de botón */
+/* Button styles */
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
@@ -113,8 +118,10 @@ button {
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
+/* Button Add */
 .button-add {
     background-color: var(--color-tertiary);
     color: var(--color-text);
@@ -125,24 +132,44 @@ button {
     background-color: #a1a1a1;
 }
 
-/* Listas */
+/* Lists */
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-family: "Playfair Display", serif; /* Nueva fuente elegante */
+    font-size: 20px; /* Un poco más grande para más elegancia */
     margin: 20px 0;
+    padding-left: 20px;
+    line-height: 1.8;
 }
 
+ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    font-size: 22px; /* Un poco más grande para una apariencia más delicada */
+}
+
+ul li::before {
+    content: '→'; /* Flecha como marcador */
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+    color: var(--color-button);
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+/* Result list */
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: #6a629ae1;
+    font-size: 24px; /* Más grande para destacar */
     font-weight: bold;
     text-align: center;
 }
 
-/* Botón de sortear título */
+/* Button to draw title */
 .button-draw {
     display: flex;
     align-items: center;
@@ -151,6 +178,9 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    border-radius: 25px;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button-draw img {
@@ -159,4 +189,5 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
